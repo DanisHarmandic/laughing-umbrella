@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>top-level-items</key>
+	<array>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>55</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>54</string>
+					<key>Timestamp</key>
+					<string>717444194.626753</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ConversionApp/ContentView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                Section {
+</string>
+				<key>leading</key>
+				<string>                }
+                
+</string>
+				<key>trailing</key>
+				<string>                    Text(result)
+                } header: {
+                    Text("Result")
+</string>
+			</dict>
+			<key>title</key>
+			<string>Final result that will be printed</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>37</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>36</string>
+					<key>Timestamp</key>
+					<string>717444194.6267591</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ConversionApp/ContentView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                Section {
+</string>
+				<key>leading</key>
+				<string>                }
+                
+</string>
+				<key>trailing</key>
+				<string>                    Picker("Convert from", selection: $inputUnit) {
+                        ForEach(units, id: \.self) {
+                            Text(formatter.string(from: $0))
+</string>
+			</dict>
+			<key>title</key>
+			<string>Fix it because it doesn't respond</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>46</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>45</string>
+					<key>Timestamp</key>
+					<string>717444194.626738</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ConversionApp/ContentView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>                Section {
+</string>
+				<key>leading</key>
+				<string>                }
+                
+</string>
+				<key>trailing</key>
+				<string>                    Picker("Convert to", selection: $outputUnit) {
+                        ForEach(units, id: \.self) {
+                            Text(formatter.string(from: $0))
+</string>
+			</dict>
+			<key>title</key>
+			<string>Fix it because it doesn't respond</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+		<dict>
+			<key>destination</key>
+			<dict>
+				<key>location-parameters</key>
+				<dict>
+					<key>EndingColumnNumber</key>
+					<string>0</string>
+					<key>EndingLineNumber</key>
+					<string>23</string>
+					<key>StartingColumnNumber</key>
+					<string>0</string>
+					<key>StartingLineNumber</key>
+					<string>22</string>
+					<key>Timestamp</key>
+					<string>717444194.626765</string>
+				</dict>
+				<key>rebasable-url</key>
+				<dict>
+					<key>base</key>
+					<string>workspace</string>
+					<key>payload</key>
+					<dict>
+						<key>relative-path</key>
+						<string>ConversionApp/ContentView.swift</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>text-context</key>
+			<dict>
+				<key>focused</key>
+				<string>        return formatter.string(from: outputMeasurement)
+</string>
+				<key>leading</key>
+				<string>        let  outputMeasurement = inputMeasurement.converted(to: outputUnit)
+        
+</string>
+				<key>trailing</key>
+				<string>    }
+    
+    var body: some View {
+</string>
+			</dict>
+			<key>title</key>
+			<string>Figure out what this means</string>
+			<key>type</key>
+			<string>bookmark</string>
+		</dict>
+	</array>
+</dict>
+</plist>
